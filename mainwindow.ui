@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout" rowstretch="1,1,20" columnstretch="1,0,0,5,1,1,1,1,0,2,1,1">
+    <item row="1" column="6">
+     <widget class="QLabel" name="avg10BlockLabel">
+      <property name="text">
+       <string>Avg. last 10 time: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="11">
+     <widget class="QPushButton" name="connectPortButton">
+      <property name="text">
+       <string>Connect port</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6" colspan="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="5">
+     <widget class="QLabel" name="avgBlockTimeInfoLabel">
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="nodeNameLabel">
+      <property name="text">
+       <string>Node name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="statusLabel">
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLabel" name="avgBlockTimeLabel">
+      <property name="text">
+       <string>Avg. block time:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="mineButton">
+      <property name="text">
+       <string>Mine</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="connectButton">
+      <property name="text">
+       <string>Connect</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="nodeNameLineEdit"/>
+    </item>
+    <item row="2" column="0" colspan="6">
+     <widget class="QListWidget" name="ledgerList"/>
+    </item>
+    <item row="2" column="6" colspan="6">
+     <widget class="QListWidget" name="hashesList"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLabel" name="statusInfoLabel">
+      <property name="text">
+       <string>Offline</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="8" colspan="3">
+     <widget class="QLineEdit" name="connectPortLineEdit"/>
+    </item>
+    <item row="1" column="7">
+     <widget class="QLabel" name="avg10BlockInfoLabel">
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="QLabel" name="diffLabel">
+      <property name="text">
+       <string>Diff:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="9" colspan="2">
+     <widget class="QLabel" name="diffInfoLabel">
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
